@@ -1,0 +1,17 @@
+﻿# Ejecutables compilados
+fantasmas
+pruebas
+fantasmas.exe
+pruebas.exe
+
+# Archivos temporales
+*.o
+*.obj
+*.exe
+
+# Configuracion de VS Code
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

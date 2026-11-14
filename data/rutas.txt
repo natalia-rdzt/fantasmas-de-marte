@@ -1,0 +1,10 @@
+# =====================================================================
+#  rutas.txt  -  Rutas tematicas (el hilo narrativo de la historia)
+#  Formato (8 campos separados por |):
+#  id|titulo|descripcion|paradas(;)|pregunta|opciones(;)|correcta(0,1,2..)|explicacion
+#  Las paradas son ids de sitios.txt. La distancia real entre paradas la calcula
+#  el programa con Dijkstra sobre el grafo de sitios.
+# =====================================================================
+agua|Sigue el agua|Cuatro sitios que nos dieron pistas sobre el agua en Marte, del pasado y del presente.|pathfinder;spirit;opportunity;phoenix|¿Qué confirmó Phoenix al cavar en el Ártico marciano?|Hielo de agua;Fósiles de bacterias;Un río activo|0|El 31 de julio de 2008 la NASA confirmó hielo de agua en Marte con ayuda del brazo robótico y el horno de Phoenix.
+primeras|Las primeras veces|Tres "primeros" de la exploración de Marte, con 45 años entre el primero (1976) y el último (2021).|viking1;pathfinder;ingenuity|¿Qué hizo Ingenuity que ninguna otra aeronave había hecho?|Volar en otro mundo;Aterrizar con paracaídas;Perforar una roca|0|Ingenuity fue la primera aeronave en volar en otro mundo. Planeaban 5 vuelos de prueba y hizo 72.
+finales|Cómo terminó su misión|Cuatro finales distintos: una orden equivocada, el invierno, una tormenta global y el polvo acumulado.|viking1;phoenix;opportunity;insight|¿Qué tienen en común los finales de Opportunity e InSight?|El polvo les quitó la energía solar;Se quedaron sin combustible;Chocaron con una roca|0|Una tormenta de polvo global bloqueó la luz de Opportunity en 2018, y el polvo acumulado en los paneles de InSight redujo su energía hasta que dejó de comunicarse en 2022.
